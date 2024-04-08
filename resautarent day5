@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <center><h1>Restaurant</h1></center>
+        <img src="./img/resautarent.jpg" width="400">
+        <h3>Menu</h3>
+        <img src="./img/breakfast.jpg" alt="breakfast" width="200">
+        <p>Breakfast</p>
+        <img src="./img/ikea.jpg" alt="ikea breakfast" width="200">
+        <p>Ikea breakfast</p>
+        <img src="./img/dchapati plate royalty.jpg" width="200"><p>
+            chapathi plate royalty
+        </p>
+        <img src="./img/Indian-Rice-Recipes-.jpg" width="200"><p>Rice Recipes</p>
+        <img src="./img/chicken-biryani-generic.webp" width="200">
+        <p>chicken-biryani-generic</p>
+        <img src="./img/smoked  chicken mandi.jpg" width="200">
+        <p>
+            Chicken mandi 
+        </p>
+    </body> 
+</html>
