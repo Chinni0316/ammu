@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <style>
+         div1{
+            width: 500px;
+            height: 300px;
+            overflow: scroll;
+            float: left;
+            background-color: aliceblue;
+
+         }
+         div2{
+            width: 500px;
+            height: 300px;
+            overflow:scroll ;
+            float: right;
+            background-color: rgb(137, 235, 80);
+            color: rgb(214, 141, 45);
+            table-layout: auto;
+         }
+         h1{
+            background-color: rgb(133, 225, 71);
+            font-family: 'Times New Roman', Times, serif;
+         }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div1>
+                <h1>History of CSS</h1>
+                <a href="#about">About</a><br>
+                <a href="#History">History</a><br>
+                <a href="#limitations">Limitations</a><br>
+                <a href="#advantages">Advantages</a>
+                
+
+            </div1>
+        </section>
+        <section>
+            <div2>
+                <p id="about">"Cascading Style Sheets" and "Pseudo-element" redirect here. For pseudoelement symbols in chemistry, see Skeletal formula § Pseudoelement symbols. For other uses, see CSS (disambiguation).
+                    Cascading Style Sheets (CSS)
+                    The official logo of the latest version, CSS 3
+                    Example of CSS source code
+                    Filename extension	
+                    .css
+                    Internet media type	
+                    text/css
+                    Uniform Type Identifier (UTI)	public.css
+                    Developed by	World Wide Web Consortium (W3C)
+                    Initial release	17 December 1996; 27 years ago
+                    Latest release	CSS 2.1 : Level 2 Revision 1
+                    12 April 2016; 8 years ago
+                    Type of format	Style sheet language
+                    Container for	Style rules for HTML elements (tags)
+                    Contained by	HTML Documents
+                    Open format?	Yes
+                    Website	www.w3.org/TR/CSS/#css
+                    Cascading Style Sheets
+                    Style sheetCSS Zen Garden
+                    Concepts
+                    animationsbox modelimage replacementflexboxgrid
+                    Philosophies
+                    TablelessResponsive"Holy grail"
+                    Tools
+                    SassLessStylus
+                    Comparisons
+                    Stylesheet languages
+                     Cascading Style Sheets
+                    vte
+                    HTML
+                    Dynamic HTMLHTML5 articleaudiocanvasvideoXHTML BasicMobile ProfileHTML element metadiv and spanblinkmarqueeHTML attribute alt attributeHTML frameHTML editorCharacter encodings named charactersUnicodeLanguage codeDocument Object ModelBrowser Object ModelStyle sheets CSSFont familyWeb colorsJavaScript WebCLWeb3D WebGLWebGPUWebXRW3C ValidatorWHATWGQuirks modeWeb storageRendering engine
+                    Comparisons
+                    Document markup languagesComparison of browser engines
+                    vte
+                    Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+                     CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+                    Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[4]
+                    The name cascading comes from the specified priority scheme to determine which declaration applies if more than one declaration of a property match a particular element. This cascading priority scheme is predictable.
+                    
+                    </p>
+                    <p id="History">CSS was first proposed by Håkon Wium Lie on 10 October 1994.[23] At the time, Lie was working with Tim Berners-Lee at CERN.[24] Several other style sheet languages for the web were proposed around the same time, and discussions on public mailing lists and inside World Wide Web Consortium resulted in the first W3C CSS Recommendation (CSS1)[25] being released in 1996. In particular, a proposal by Bert Bos was influential; he became co-author of CSS1, and is regarded as co-creator of CSS.[26]
+                        Style sheets have existed in one form or another since the beginnings of Standard Generalized Markup Language (SGML) in the 1980s, and CSS was developed to provide style sheets for the web.[27] One requirement for a web style sheet language was for style sheets to come from different sources on the web. Therefore, existing style sheet languages like DSSSL and FOSI were not suitable. CSS, on the other hand, let a document's style be influenced by multiple style sheets by way of "cascading" styles.[27]
+                        As HTML grew, it came to encompass a wider variety of stylistic capabilities to meet the demands of web developers. This evolution gave the designer more control over site appearance, at the cost of more complex HTML. Variations in web browser implementations, such as ViolaWWW and WorldWideWeb,[28] made consistent site appearance difficult, and users had less control over how web content was displayed. The browser/editor developed by Tim Berners-Lee had style sheets that were hard-coded into the program. The style sheets could therefore not be linked to documents on the web.[24] Robert Cailliau, also of CERN, wanted to separate the structure from the presentation so that different style sheets could describe different presentation for printing, screen-based presentations, and editors.[28]
+                    </p>
+                    <p id="limitations">
+                         1.Cannot explicitly declare new scope independently of position <br>
+                         2.Pseudo-class dynamic behavior not controllable <br>
+                         3.Cannot name rules <br>
+                         4.Cannot include styles from a rule into another rule <br>
+                         5.Cannot target specific text without altering markup <br>
+
+                    </p>
+                    <p id="advantages">
+                        <table border="2px solid black" style="color: rgb(83, 60, 166);">
+                            <tr>
+                                <th>Advantages</th>
+                                <th>Disadvantages</th>
+                            </tr>
+                            <tr>
+                                <td>Separation of Content and Design</td>
+                                <td>Browser Compatibility Challenges</td>
+                            </tr>
+                            <tr>
+                                <td>Consistency and Efficiency</td>
+                                <td>Learning Curve</td>
+                            </tr>
+                            <tr>
+                                <td>Easy Maintenance and Updates</td>
+                                <td>Limited Layout Control</td>
+                            </tr>
+                            <tr>
+                                <td>Browser Compatibility</td>
+                                <td>Lack of Variables and Arithmetic Operations</td>
+                            </tr>
+                            <tr>
+                                <td>Improved Page Loading Speed</td>
+                                <td>Specificity and Inheritance Issues</td>
+                            </tr>
+                            <tr>
+                                <td>Responsive Design</td>
+                                <td>Debugging Complexity</td>
+                            </tr>
+                            <tr>
+                                <td>Accessibility</td>
+                                <td>Performance Impact</td>
+                            </tr>
+                        </table>
+                    </p>
+            </div2>
+        </section>
+    </body>
+</html>
+            
